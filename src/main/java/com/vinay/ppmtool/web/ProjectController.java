@@ -24,7 +24,6 @@ import com.vinay.ppmtool.service.ValidationErrorMapService;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 public class ProjectController {
 
 	@Autowired

@@ -24,7 +24,6 @@ import com.vinay.ppmtool.service.ValidationErrorMapService;
 
 @RestController
 @RequestMapping("/api/backlog")
-@CrossOrigin
 public class BacklogController {
 
 	@Autowired

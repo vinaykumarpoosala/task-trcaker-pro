@@ -29,7 +29,6 @@ import static com.vinay.ppmtool.security.SecurityConstants.*;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin
 public class UserController {
 
 	@Autowired
